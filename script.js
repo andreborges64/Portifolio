@@ -14,6 +14,7 @@ const projects = [
   {name:'Jogo da Cobrinha',repo:'Jogo-da-Cobrinha',category:'jogos',kind:'JOGO · ARCADE',description:'Guie a cobrinha, colete pontos e tente bater seu próprio recorde.',tint:'#dce6d7'},
   {name:'Asteroids',repo:'Jogo-Asteroids',category:'jogos',kind:'JOGO · ARCADE',description:'Pilote pelo espaço e desvie dos asteroides nesta aventura arcade.',tint:'#e1e0eb'},
   {name:'Sudoku',repo:'Jogo-Sudoku',category:'jogos',kind:'JOGO · LÓGICA',description:'Um desafio de lógica para preencher a grade número por número.',tint:'#dce3e9'},
+  {name:'Calculadora',repo:'Calculadora',category:'ferramentas',kind:'ACESSIBILIDADE',description:'Projeto de acessibilidade para pessoas daltônicas, disléxicas e com problemas de visão.',tint:'#e9e0d6'},
 ];
 
 const grid = document.querySelector('#project-grid');
