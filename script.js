@@ -19,12 +19,14 @@ const projects = [
 
 const grid = document.querySelector('#project-grid');
 const count = document.querySelector('#visible-count');
+const totalCountLabel = document.querySelector('[data-filter="todos"] span');
 const pageUrl = repo => `https://andreborges64.github.io/${repo}/`;
 const screenshotUrl = url => `https://image.thum.io/get/width/1000/crop/680/noanimate/${url}`;
 
 function render(filter = 'todos') {
   const visible = projects.filter(project => filter === 'todos' || project.category === filter);
   count.textContent = String(visible.length).padStart(2, '0');
+  totalCountLabel.textContent = String(projects.length);
   grid.innerHTML = visible.map((project, index) => {
     const url = pageUrl(project.repo);
     return `<article class="project-card" style="--card-tint:${project.tint}">
