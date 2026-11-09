@@ -15,6 +15,7 @@ const projects = [
   {name:'Asteroids',repo:'Jogo-Asteroids',category:'jogos',kind:'JOGO · ARCADE',description:'Pilote pelo espaço e desvie dos asteroides nesta aventura arcade.',tint:'#e1e0eb'},
   {name:'Sudoku',repo:'Jogo-Sudoku',category:'jogos',kind:'JOGO · LÓGICA',description:'Um desafio de lógica para preencher a grade número por número.',tint:'#dce3e9'},
   {name:'Calculadora',repo:'Calculadora',category:'ferramentas',kind:'ACESSIBILIDADE',description:'Projeto de acessibilidade para pessoas daltônicas, disléxicas e com problemas de visão.',tint:'#e9e0d6'},
+  {name:'Voxparli',repo:'Voxparli',category:'ferramentas',kind:'IDIOMAS',description:'Um projeto para estudo de idiomas.',tint:'#dce4f0'},
 ];
 
 const grid = document.querySelector('#project-grid');
